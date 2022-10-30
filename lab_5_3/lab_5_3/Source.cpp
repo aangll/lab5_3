@@ -46,7 +46,7 @@ double h(const double x)
 		do
 		{
 			i++;
-			double R = pow(x, i) / (2 * i * (2 * i - 1));
+			double R = x / (2 * i * (2 * i - 1));
 			a *= R;
 			S += a;
 		} while (i < 5);
